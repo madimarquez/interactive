@@ -1,0 +1,57 @@
+html, body {
+  margin:0px;
+  margin-top: 0px;
+  background-color: #E41E25;
+
+}
+
+p {
+  color: blue;
+  font-size: 150px;
+  text-align: right;
+  line-height: .35;
+  word-spacing: 5px;
+}
+
+.button {
+	padding: 10px;
+	color: #E41E25;
+	text-decoration: none;
+	font-size: 100px;
+	text-align:right;
+}
+
+.popup {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(0, 0, 0, 0.6);
+	display: none;
+
+}
+
+#text .popup-content {
+	width: 600px;
+	height: 600px;
+	margin: 100px auto;
+	position: relative;
+	background-color: blue;
+	color: #E41E25;
+	border: 5px solid #E41E25;
+	padding: 40px;
+}
+
+.close {
+	position: absolute;
+	top: 0px;
+	right: 10px;
+	color: #E41E25;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.popup:target {
+	display: block;
+}
