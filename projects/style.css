@@ -1,0 +1,46 @@
+body {
+  font-family: "Merriweather", sans-serif;
+}
+
+.flex-container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+}
+
+   .rightarrow{
+   width: 0; 
+  height: 0; 
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid black;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+  
+.leftarrow {
+   width: 0; 
+  height: 0; 
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent; 
+  border-right:20px solid black; 
+  margin-right: 20px;
+  margin-left: 20px;
+ 
+}
+  .image {
+  	border: solid black 3px;
+  	height: 800px;
+  	width: 1200px;
+  	margin-bottom: 30px;
+  	margin-top: 30px;
+  }
+
+  .text {
+font-size: 40px;
+text-align: center;
+  }
