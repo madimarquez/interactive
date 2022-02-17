@@ -1,6 +1,7 @@
 body {
   font-family: "Merriweather", sans-serif;
 }
+/* this is for the arrows*/
 
 .flex-container {
     display:flex;
@@ -32,15 +33,68 @@ body {
   margin-left: 20px;
  
 }
-  .image {
-  	border: solid black 3px;
-  	height: 800px;
-  	width: 1200px;
-  	margin-bottom: 30px;
-  	margin-top: 30px;
+/* this is for the image and text*/
+
+  .inside {
+    border: solid black 3px;
+    width: 1200px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    object-fit: contain;
+
   }
 
   .text {
-font-size: 40px;
+font-size: 20px;
 text-align: center;
   }
+  
+  .container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.image {
+  object-fit:contain;
+   max-width: 100%;
+    height: auto;
+}
+
+/* scrolling credits*/
+
+.scroll {
+  text-align: center;
+  font-size: 60px;
+  color: white;
+}
+.otherscroll {
+  text-align: center;
+font-size: 30px;
+padding: 50px;
+color: white;
+}
+
+.enter {
+  align-content: right;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.redrum {
+
+  color: red;
+  font-style: bold;
+  text-align: center;
+  font-size: 250px;
+  
+
+}
+
+
+
+
+
