@@ -93,7 +93,17 @@ color: white;
   
 
 }
-
+.blinking{
+    animation:blinkingText 3s infinite;
+    align-content: center;
+}
+@keyframes blinkingText{
+    0%{     color: #000000;    }
+    52%{    color: #000000; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #red;    }
+}
 
 
 
