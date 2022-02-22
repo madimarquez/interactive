@@ -105,6 +105,11 @@ color: white;
     100%{   color: #red;    }
 }
 
-
-
+.form {
+ font-size: 20pt;
+ height: 40px; 
+ width:600px;
+ margin: auto;
+display: block;
+}
 
