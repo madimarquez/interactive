@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
 body {
   font-family: "Merriweather", sans-serif;
 }
@@ -47,6 +50,7 @@ body {
   .text {
 font-size: 20px;
 text-align: center;
+padding: 20px;
   }
   
   .container {
@@ -82,6 +86,7 @@ color: white;
   color: white;
   font-size: 20px;
   text-decoration: none;
+
 }
 
 .redrum {
@@ -113,3 +118,14 @@ color: white;
 display: block;
 }
 
+.button {
+  border: none;
+  background-color: red;
+  height: 100vh;
+  width: 100vw;
+}
+
+.thscroll {
+  height: 100vh;
+  width: 100vw;
+}
