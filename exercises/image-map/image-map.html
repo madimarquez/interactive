@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hello</title>
+
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+
+    <script src="jquery.rwdImageMaps.min.js"></script>
+
+    <script>
+      $(document).ready(function (e) {
+        $("img[usemap]").rwdImageMaps();
+      });
+    </script>
+    
+    <style>
+      img {
+        max-width: 50vw;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="../../index.html">Home</a> 
+<br>
+<br>
+
+    <img src="exercise5-01.png" usemap="#image-map">
+
+<map name="image-map">
+    <area target="_blank" alt="Guatelmala" title="Guatelmala" href="https://wwwnc.cdc.gov/travel/images/map-guatemala.png" coords="1167,1348,757" shape="circle">
+    <area target="_blank" alt="Ecuador" title="Ecuador" href="https://wwwnc.cdc.gov/travel/images/map-ecuador.png" coords="3302,1348,756" shape="circle">
+    <area target="_blank" alt="Costa Rica" title="Costa Rica" href="https://wwwnc.cdc.gov/travel/images/map-costa-rica.png" coords="1199,3042,754" shape="circle">
+    <area target="_blank" alt="Columbia" title="Columbia" href="https://wwwnc.cdc.gov/travel/images/map-columbia.png" coords="3275,3041,766" shape="circle">
+</map>
+  </body>
+</html>
