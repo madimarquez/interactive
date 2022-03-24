@@ -1,0 +1,17 @@
+  table, td {
+  border: 1px solid;
+  border-collapse: collapse;
+width: 18vw;
+padding: 20px;
+padding-bottom: 70px;
+
+}
+th{
+	font-size: 30px;
+}
+
+.strange{ 
+font-size: 20px;
+padding: 10px;
+ }
+
