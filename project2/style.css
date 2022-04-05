@@ -1,0 +1,48 @@
+
+
+img {
+  max-width: 100%;
+  max-height: auto;
+}
+
+
+
+body {
+  overflow: scroll;
+  cursor: grab;
+  cursor: -o-grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+    
+
+}
+
+.container {
+width: 3000px;
+
+
+}
+
+  table, td {
+  border: 1px solid;
+  border-collapse: collapse;
+padding: 20px;
+padding-bottom: 70px;
+ font-family: 'Cutive', serif;
+
+}
+th{
+  font-size: 30px;
+   font-family: 'Cutive', serif;
+}
+
+.strange{ 
+font-size: 20px;
+padding: 10px;
+ }
+
+@import url('https://fonts.googleapis.com/css2?family=Cutive&display=swap');
+
+.p {
+  color: lightblue;
+}

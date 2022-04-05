@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Strange Library</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="dragscroll">
+    <div class="container">
+      <img
+        src="project2.png"
+        usemap="#image-map"
+      />
+      <map name="image-map">
+        <area
+          alt="Home"
+          title="Home"
+          href="../index.html"
+          coords="2438,3136,3149,3602"
+          shape="rect"
+        />
+         <area
+          alt="1"
+          title="1"
+          href="1.html"
+          target="popup"
+          onclick="window.open('1.html','popup','width=600,height=600'); return false;"
+          coords="4050,3645,4739,4100"
+          shape="rect"
+        />
+         <area
+          alt="2"
+          title="2"
+          href="2.html"
+          target="popup"
+          onclick="window.open('2.html','popup','width=600,height=600'); return false;"
+          coords="6462,2659,7140,3104"
+          shape="rect"
+        />
+         <area
+          alt="3"
+          title="3"
+          href="3.html"
+          target="popup"
+          onclick="window.open('3.html','popup','width=600,height=600'); return false;"
+          coords="3271,4132,3949,4567"
+          shape="rect"
+        /> <area
+          alt="4"
+          title="4"
+          href="4.html"
+          target="popup"
+          onclick="window.open('4.html','popup','width=600,height=600'); return false;"
+          coords="5640,4620,6340,5075"
+          shape="rect"
+        /> <area
+          alt="5"
+          title="5"
+          href="5.html"
+          target="popup"
+          onclick="window.open('5.html','popup','width=600,height=600'); return false;"
+          coords="8036,5594,8725,6082"
+          shape="rect"
+        /> <area
+          alt="6"
+          title="6"
+          href="6.html"
+          target="popup"
+          onclick="window.open('6.html','popup','width=600,height=600'); return false;"
+          coords="3233,5096,3954,5563"
+          shape="rect"
+        /> <area
+          alt="7"
+          title="7"
+          href="7.html"
+          target="popup"
+          onclick="window.open('7.html','popup','width=600,height=600'); return false;"
+          coords="4039,2151,4728,2596"
+          shape="rect"
+        /> <area
+          alt="8"
+          title="8"
+          href="8.html"
+          target="popup"
+          onclick="window.open('8.html','popup','width=600,height=600'); return false;"
+          coords="8025,4609,8725,5065"
+          shape="rect"
+        /> <area
+          alt="9"
+          title="9"
+          href="9.html"
+          target="popup"
+          onclick="window.open('9.html','popup','width=600,height=600'); return false;"
+          coords="5629,3634,6329,4079"
+          shape="rect"
+        /> <area
+          alt="10"
+          title="10"
+          href="10.html"
+          target="popup"
+          onclick="window.open('10.html','popup','width=600,height=600'); return false;"
+          coords="2449,4608,3148,5064"
+          shape="rect"
+        /> <area
+          alt="11"
+          title="11"
+          href="11.html"
+          target="popup"
+          onclick="window.open('11.html','popup','width=600,height=600'); return false;"
+          coords="7230,4609,7909,5065"
+          shape="rect"
+        /> <area
+          alt="12"
+          title="12"
+          href="12.html"
+          target="popup"
+          onclick="window.open('12.html','popup','width=600,height=600'); return false;"
+          coords="7257,6114,7946,6569"
+          shape="rect"
+        />
+        
+      </map>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.rawgit.com/asvd/dragscroll/master/dragscroll.js"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+
+    <script src="jquery.rwdImageMaps.min.js"></script>
+
+    <script>
+      $(document).ready(function (e) {
+        $("img[usemap]").rwdImageMaps();
+      });
+    </script>
+  </body>
+</html>
